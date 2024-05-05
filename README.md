@@ -1,8 +1,8 @@
-# Word Master
+# Travel Master
 
 🔗 https://octokatherine.github.io/word-master/
 
-Heavily inspired by [Wordle](https://www.powerlanguage.co.uk/wordle/), Word Master is a word guessing game similar to Mastermind. I created this because I love Wordle, but the once a day limit leaves me wanting more.
+Heavily inspired by [Wordle](https://www.powerlanguage.co.uk/wordle/), Travel Master is a word guessing game similar to Mastermind. I created this because I love Wordle, but the once a day limit leaves me wanting more.
 
 ## Rules
 

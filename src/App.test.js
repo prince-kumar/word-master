@@ -1,10 +1,10 @@
 import { render, screen } from '@testing-library/react'
 import App from './App'
 
-test('renders the WORD MASTER title', () => {
+test('renders the Travel MASTER title', () => {
   render(<App />)
-  const title = screen.getByText(/WORD MASTER/i)
-  const subtitle = screen.getByText(/WORD MASTER1/i)
+  const title = screen.getByText(/Travel MASTER/i)
+  const subtitle = screen.getByText(/Travel MASTER1/i)
   expect(title).toBeInTheDocument()
   expect(subtitle).toBeInTheDocument()
 })
