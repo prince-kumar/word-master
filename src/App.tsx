@@ -50,7 +50,7 @@ function App() {
       ['', '', '', '', ''],
       ['', '', '', '', ''],
       ['', '', '', '', ''],
-      ['', '', '', '', ''],
+      // ['', '', '', '', ''],
     ],
     cellStatuses: Array(6).fill(Array(5).fill(status.unguessed)),
     currentRow: 0,
@@ -378,8 +378,14 @@ function App() {
             <Settings />
           </button>
           <h1 className="flex-1 text-center text-xl xxs:text-2xl sm:text-4xl tracking-wide font-bold font-righteous">
-            WORD MASTER
+            TRAVEL MASTER
           </h1>
+          {/* <h2 className="/n flex-1 text-center text-xl xxs:text-2xl sm:text-4xl tracking-wide font-bold font-righteous">
+            WORD MASTER1
+          </h2> */}
+          <h2 className="/n flex-1 text-center text-xl xxs:text-2xl sm:text-4xl tracking-wide font-bold font-righteous">
+            capital of Belarus
+          </h2>
           <button
             type="button"
             onClick={() => setInfoModalIsOpen(true)}
