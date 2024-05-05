@@ -1,5 +1,4 @@
 const words: { [key: string]: boolean } = {
-
   aldan:true,
   betwa:true,
   congo:true,
@@ -14,9 +13,9 @@ const words: { [key: string]: boolean } = {
   tokyo:true,
   seoul:true,
   minsk:true,
-  Hanoi:true,
+  hanoi: true,
   zymes: true,
-  Hanoe: true,
+  
 }
 
 export default words

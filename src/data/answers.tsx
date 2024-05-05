@@ -4,7 +4,7 @@ const answers = [
   'congo' ,
   'benue' ,
   'desna' ,
-  'green',
+  'green' ,
   'ganga' ,
   'gomti' ,
   'indus' ,
@@ -13,9 +13,8 @@ const answers = [
   'tokyo' ,
   'seoul' ,
   'minsk',
-  'Hanoi' ,
-  'zymes',
-  'Hanoe',
+  'hanoi' ,
+  'zymes' ,
 ]
 
 export default answers
