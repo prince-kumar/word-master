@@ -145,6 +145,9 @@ export const EndGameModal = ({
                 <p className="text-base">
                   Longest streak: <strong>{longestStreak}</strong>
                 </p>
+                <p className="text-base">
+                  Niyo Coins awarded: <strong>{longestStreak}*100 coins && '🔥' </strong>
+                </p>
               </div>
             </>
           )}
