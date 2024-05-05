@@ -30,6 +30,7 @@ const getRandomAnswer = () => {
 
 type State = {
   answer: () => string
+  questions: string[]
   gameState: string
   board: string[][]
   cellStatuses: string[][]
@@ -42,6 +43,8 @@ type State = {
 
 function App() {
   const initialStates: State = {
+
+    questions: ["hello", "hello1","helloo3"], 
     answer: () => getRandomAnswer(),
     gameState: state.playing,
     board: [
@@ -67,6 +70,8 @@ function App() {
   }
 
   const [answer, setAnswer] = useLocalStorage('stateAnswer', initialStates.answer())
+  const [question, setQuestion] = useState(initialStates.questions[Math.floor(Math.random()*initialStates.questions.length)]);
+  
   const [gameState, setGameState] = useLocalStorage('stateGameState', initialStates.gameState)
   const [board, setBoard] = useLocalStorage('stateBoard', initialStates.board)
   const [cellStatuses, setCellStatuses] = useLocalStorage(
@@ -87,6 +92,7 @@ function App() {
   const [currentStreak, setCurrentStreak] = useLocalStorage('current-streak', 0)
   const [longestStreak, setLongestStreak] = useLocalStorage('longest-streak', 0)
   const [modalIsOpen, setIsOpen] = useState(false)
+
   const [firstTime, setFirstTime] = useLocalStorage('first-time', true)
   const [guessesInStreak, setGuessesInStreak] = useLocalStorage(
     'guesses-in-streak',
@@ -369,7 +375,7 @@ function App() {
   return (
     <div>
       <div className={`flex flex-col justify-between h-fill bg-background dark:bg-background-dark`}>
-        <header className="flex items-center py-2 px-3 text-primary dark:text-primary-dark">
+        <header className="flex flex-row justify-between py-2 px-3 text-primary dark:text-primary-dark">
           <button
             type="button"
             onClick={() => setSettingsModalIsOpen(true)}
@@ -377,15 +383,17 @@ function App() {
           >
             <Settings />
           </button>
-          <h1 className="flex-1 text-center text-xl xxs:text-2xl sm:text-4xl tracking-wide font-bold font-righteous">
+          <div>
+
+          <h1 className=" text-center text-xl xxs:text-2xl sm:text-4xl tracking-wide font-bold font-righteous">
             TRAVEL MASTER
           </h1>
-          {/* <h2 className="/n flex-1 text-center text-xl xxs:text-2xl sm:text-4xl tracking-wide font-bold font-righteous">
-            WORD MASTER1
-          </h2> */}
-          <h2 className="/n flex-1 text-center text-xl xxs:text-2xl sm:text-4xl tracking-wide font-bold font-righteous">
-            capital of Belarus
+          <h2 className=" text-center text-xl tracking-wide font-bold font-righteous mt-3">
+          { question}
           </h2>
+            
+          </div>
+ 
           <button
             type="button"
             onClick={() => setInfoModalIsOpen(true)}

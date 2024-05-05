@@ -9339,6 +9339,7 @@ const words: { [key: string]: boolean } = {
   minsk:true,
   Hanoi:true,
   zymes: true,
+  Hanoe: true,
 }
 
 export default words
