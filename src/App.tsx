@@ -53,7 +53,7 @@ function App() {
       ['', '', '', '', ''],
       ['', '', '', '', ''],
       ['', '', '', '', ''],
-      // ['', '', '', '', ''],
+      ['', '', '', '', ''],
     ],
     cellStatuses: Array(6).fill(Array(5).fill(status.unguessed)),
     currentRow: 0,
