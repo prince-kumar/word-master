@@ -93,28 +93,7 @@ export const SettingsModal = ({
             <p className="text-center w-10/12 mx-auto font-medium">{levelInstructions}</p>
           </div>
           <div className="flex flex-col items-center">
-            {/* <div className="mb-4">
-              If you're enjoying this game, you can show your support by{' '}
-              <a
-                href="https://www.buymeacoffee.com/katherinecodes"
-                target="_blank"
-                rel="noreferrer"
-              >
-                buying me a coffee
-              </a>
-              <span className="ml-1 text-xs">💛</span>
-            </div> */}
-            {/* <a
-              href="https://www.buymeacoffee.com/katherinecodes"
-              target="_blank"
-              rel="noreferrer"
-              className="nm-flat-background dark:nm-flat-background-dark rounded-xl hover:nm-inset-background dark:hover:nm-inset-background-dark"
-            >
-              <img
-                alt="buy me a coffee"
-                src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=katherinecodes&button_colour=eab308&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"
-              />
-            </a> */}
+
           </div>
         </div>
       </div>
