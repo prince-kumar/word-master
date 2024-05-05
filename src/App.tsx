@@ -44,7 +44,7 @@ type State = {
 function App() {
   const initialStates: State = {
 
-    questions: ["This is a city name", "This is a river name ","This is a food name"], 
+    questions: ["guess the city ", "Guess the river name ","Guess the food name"], 
     answer: () => getRandomAnswer(),
     gameState: state.playing,
     board: [
