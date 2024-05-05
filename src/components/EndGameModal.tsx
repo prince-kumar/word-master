@@ -140,7 +140,7 @@ export const EndGameModal = ({
                   The word was <strong>{answer}</strong>
                 </p>
                 <p className="mt-6 text-base">
-                  Current streak: <strong>{currentStreak}</strong> {currentStreak > 4 && '🔥'}
+                Niyo Coins awarded: <strong>{currentStreak}*100</strong> {currentStreak > 4 && '🔥'}
                 </p>
                 <p className="text-base">
                   Longest streak: <strong>{longestStreak}</strong>
