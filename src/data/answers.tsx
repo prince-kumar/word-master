@@ -12,9 +12,20 @@ const answers = [
   'paris' ,
   'tokyo' ,
   'seoul' ,
-  'minsk',
+  'minsk' ,
   'hanoi' ,
-  'zymes' ,
+  'Basil' ,
+  'Guava' ,
+  'Salad' ,
+  'Salsa' ,
+  'Squid' ,
+  'Steak' ,
+  'Jelly' ,
+  'Berry' ,
+  'Beets' ,
+  'Icing' ,
+  'Honey' ,
+  'Beans' ,
 ]
 
 export default answers

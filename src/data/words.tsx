@@ -13,9 +13,18 @@ const words: { [key: string]: boolean } = {
   tokyo:true,
   seoul:true,
   minsk:true,
-  hanoi: true,
-  zymes: true,
-  
+  Basil: true,
+  Guava: true,
+  Salad: true,
+  Salsa: true,
+  Squid: true,
+  Steak: true,
+  Jelly: true,
+  Berry: true,
+  Beets: true,
+  Icing: true,
+  Honey: true,
+  Beans: true,
 }
 
 export default words
